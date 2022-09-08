@@ -2,8 +2,8 @@
 
 Hello, welcome to our flutter frontend!
 
-- View the backend here: 
-- View the react frontend here: 
+- View the backend here: https://github.com/angnicholas/diario_backend
+- View the react frontend here: https://github.com/angnicholas/diario_react
 
 To run:
 ```
