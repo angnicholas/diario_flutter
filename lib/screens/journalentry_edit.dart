@@ -67,7 +67,7 @@ class _ScrEditJournalEntry extends State<ScrEditJournalEntry> {
       //Title
       appBar: AppBar(
         title: _isCreateJournalEntry
-            ? Text('Add an JournalEntry')
+            ? Text('Add an Journal Entry')
             : Text(_createdjournalentry.title),
         centerTitle: true,
         actions: [
@@ -90,7 +90,7 @@ class _ScrEditJournalEntry extends State<ScrEditJournalEntry> {
                   initialValue: _createdjournalentry.title,
                   decoration: InputDecoration(
                     icon: Icon(Icons.celebration),
-                    labelText: 'Journal Entry Name',
+                    labelText: 'Journal Entry Title',
                   ),
                   textInputAction: TextInputAction.next,
                   validator: (value) {
@@ -134,7 +134,7 @@ class _ScrEditJournalEntry extends State<ScrEditJournalEntry> {
                   initialValue: _createdjournalentry.content,
                   decoration: InputDecoration(
                     icon: Icon(Icons.sticky_note_2),
-                    labelText: 'Journal Entry Description',
+                    labelText: 'Journal Entry Content',
                   ),
                   textInputAction: TextInputAction.next,
                   onSaved: (value) {

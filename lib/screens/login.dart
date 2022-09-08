@@ -43,6 +43,7 @@ class _LoginViewState extends State<LoginView> {
                         textInputAction: TextInputAction.next,
                       ),
                       TextField(
+                        obscureText: true,
                         controller: _passwordController,
                         decoration: InputDecoration(hintText: 'Password'),
                         textInputAction: TextInputAction.done,

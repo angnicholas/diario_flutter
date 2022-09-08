@@ -35,7 +35,7 @@ class ScrJournalEntryDetail extends StatelessWidget {
             //JournalEntry name
             DetailRow(
               displayicon: Icon(Icons.celebration),
-              labeltext: '  JournalEntry: ',
+              labeltext: '  Journal Entry: ',
               contenttext: loadedJournalEntry.title,
             ),
 
