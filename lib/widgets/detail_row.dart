@@ -31,7 +31,7 @@ class DetailRow extends StatelessWidget {
                     scrollDirection: Axis.vertical,
                     child: Text(
                       contenttext,
-                      maxLines: 15,
+                      maxLines: 25,
                       style: const TextStyle(fontSize: 16.0),
                     ),
                   ),
